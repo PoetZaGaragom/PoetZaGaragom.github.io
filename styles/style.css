@@ -4,6 +4,11 @@ body {
     background-color: #EBEBEB;
 }
 
+/* Image */
+img {
+    margin: 60px 0px;
+}
+
 /* Wrapper */
 #wrapper {
     background-color: white;
