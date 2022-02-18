@@ -11,13 +11,14 @@ body {
     width: 960px;
 
     margin: 40px auto;
-    padding: 0px 30px;
 }
 
 /* Header */
 #header {
     display: flex;
     justify-content: space-between;
+
+    padding: 0px 30px;
 }
     #header h1 a {
         font: normal 54px Georgia, Times, serif;
@@ -33,4 +34,30 @@ body {
         color: #999999;
         
         line-height: 120px;
+    }
+
+/* Nav */ 
+nav {
+    background-color: #EA9B23;
+
+    padding: 0px 30px;
+}
+    nav ul {
+        font-size: 1.2em;
+        text-align: center;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li a {
+        color: #F7DAAF;
+        text-decoration: none;
+
+        display: block;
+        width: 150px;
+
+        line-height: 80px;
+    }
+    nav ul li a:hover {
+        color: #F7DAAF;
     }
